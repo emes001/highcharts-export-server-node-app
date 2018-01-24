@@ -1,0 +1,17 @@
+{
+  "name": "highcharts-export-server-node-app",
+  "version": "1.0.0",
+  "description": "Node.js web app serving a Highcharts Export Server, wrapped in a Docker image",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "body-parser" : "^1.17.1",
+    "highcharts-export-server": "^2.0.4"
+  },
+  "author": "Martin Sherene <emes001@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
